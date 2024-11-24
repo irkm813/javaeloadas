@@ -4,53 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aa5a4f2-d3b8-4198-b673-13f55e53bcf0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/AktualisArakController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/GrafikonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/HistorikusArakController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/IrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Letoltes2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/LetoltesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/ModositController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/NyitottPoziciokController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Olvas2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/OlvasController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/ParhuzamosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioNyitasController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioZarasController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/SzamlaInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/TorolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/WelcomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/util/PageLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/AktualisArakPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/GrafikonPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/HistorikusArakPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/IrPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/Letoltes2Page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/LetoltesPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/ModositPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/NyitottPoziciokPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/Olvas2Page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/OlvasPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/ParhuzamosPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/PozicioNyitasPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/PozicioZarasPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/SzamlaInfoPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/TorolPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/WelcomePage.fxml" afterDir="false" />
+    <list default="true" id="9aa5a4f2-d3b8-4198-b673-13f55e53bcf0" name="Changes" comment="First commit, frontend megvan, meg a skeleton">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/SzamlaInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/SzamlaInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/LetoltesPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/LetoltesPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/SzamlaInfoPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/SzamlaInfoPage.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;irkm813&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/irkm813/javaeloadas.git&quot;,
+    &quot;accountId&quot;: &quot;53ad9027-d111-452a-8905-35df56db7079&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -84,35 +59,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.JavaEloadasBeadando.executor": "Run",
-    "Maven.JavaEloadasBeadando [-Dcheckstyle.skip=true...].executor": "Run",
-    "Maven.JavaEloadasBeadando [clean].executor": "Run",
-    "Maven.JavaEloadasBeadando [dependency:tree].executor": "Run",
-    "Maven.JavaEloadasBeadando [install].executor": "Run",
-    "Maven.JavaEloadasBeadando [jaxws:wsimport].executor": "Run",
-    "Maven.JavaEloadasBeadando [validate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ferko/Documents/JavaEloadasBeadando/src/main/java/com/example/javaeloadasbeadando/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JavaEloadasBeadando.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [-Dcheckstyle.skip=true...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [dependency:tree].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [jaxws:wsimport].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ferko/Documents/JavaEloadasBeadando/src/main/java/com/example/javaeloadasbeadando/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.certificates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java\com\example\javaeloadasbeadando\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java" />
+      <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java\com\example\javaeloadasbeadando" />
       <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\resources\pages" />
       <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java\com\example\javaeloadasbeadando\pages" />
       <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\resources\com\example\javaeloadasbeadando" />
@@ -158,11 +139,33 @@
       <updated>1732443760461</updated>
       <workItem from="1732443761452" duration="13674000" />
       <workItem from="1732457613866" duration="1832000" />
-      <workItem from="1732459453102" duration="1902000" />
+      <workItem from="1732459453102" duration="4127000" />
+      <workItem from="1732464098931" duration="239000" />
+      <workItem from="1732464345054" duration="709000" />
+      <workItem from="1732465257178" duration="379000" />
+      <workItem from="1732465646829" duration="1721000" />
+      <workItem from="1732475407792" duration="1144000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit, frontend megvan, meg a skeleton">
+      <option name="closed" value="true" />
+      <created>1732461698716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732461698716</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit, frontend megvan, meg a skeleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit, frontend megvan, meg a skeleton" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -6,9 +6,8 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.javaeloadasbeadando.controllers.SzamlaInfoController"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javaeloadasbeadando.controllers.SzamlaInfoController">
+    <Label text="Szamlainfo Page" />
+    <TextArea fx:id="welcomeText"/>
+    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+</StackPane>
