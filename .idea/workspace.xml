@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9aa5a4f2-d3b8-4198-b673-13f55e53bcf0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/AktualisArakController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/GrafikonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/HistorikusArakController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/IrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Letoltes2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/LetoltesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/ModositController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/NyitottPoziciokController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Olvas2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/OlvasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/ParhuzamosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioNyitasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioZarasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/SzamlaInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/TorolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/WelcomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/util/PageLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/AktualisArakPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/GrafikonPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/HistorikusArakPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/IrPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/Letoltes2Page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/LetoltesPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/ModositPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/NyitottPoziciokPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/Olvas2Page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/OlvasPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/ParhuzamosPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/PozicioNyitasPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/PozicioZarasPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/SzamlaInfoPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/TorolPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pages/WelcomePage.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2pIBYapdenqsibdyamAsZfkZXV3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.JavaEloadasBeadando.executor": "Run",
+    "Maven.JavaEloadasBeadando [-Dcheckstyle.skip=true...].executor": "Run",
+    "Maven.JavaEloadasBeadando [clean].executor": "Run",
+    "Maven.JavaEloadasBeadando [dependency:tree].executor": "Run",
+    "Maven.JavaEloadasBeadando [install].executor": "Run",
+    "Maven.JavaEloadasBeadando [jaxws:wsimport].executor": "Run",
+    "Maven.JavaEloadasBeadando [validate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ferko/Documents/JavaEloadasBeadando/src/main/java/com/example/javaeloadasbeadando/pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java\com\example\javaeloadasbeadando\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\resources\pages" />
+      <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java\com\example\javaeloadasbeadando\pages" />
+      <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\resources\com\example\javaeloadasbeadando" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.javaeloadasbeadando" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.javaeloadasbeadando.pages" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn jaxws:wsimport" />
+      <command value="mvn dependency:tree" />
+      <command value="mvn -Dcheckstyle.skip=true clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="JavaEloadasBeadando" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.javaeloadasbeadando.Main" />
+      <module name="JavaEloadasBeadando" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aa5a4f2-d3b8-4198-b673-13f55e53bcf0" name="Changes" comment="" />
+      <created>1732443760461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732443760461</updated>
+      <workItem from="1732443761452" duration="13674000" />
+      <workItem from="1732457613866" duration="1832000" />
+      <workItem from="1732459453102" duration="1902000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
