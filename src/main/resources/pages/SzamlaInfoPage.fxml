@@ -9,5 +9,11 @@
 <StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javaeloadasbeadando.controllers.SzamlaInfoController">
     <Label text="Szamlainfo Page" />
     <TextArea fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+    <TableView fx:id="SzamlaInfotableView" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <columns>
+            <TableColumn fx:id="nevColumn" text="Név" prefWidth="50.0" minWidth="50.0" resizable="true"/>
+            <TableColumn fx:id="ertekColumn" text="Érték" prefWidth="100.0" minWidth="50.0" resizable="true"/>
+        </columns>
+    </TableView>
+    <Button fx:id="showButton" text="Adatok Betöltése" onAction="#onShowButtonClick"/>
 </StackPane>
