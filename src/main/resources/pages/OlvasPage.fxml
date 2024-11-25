@@ -6,7 +6,7 @@
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.example.javaeloadasbeadando.controllers.OlvasController">
-    <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="372.0" prefWidth="772.0">
+    <TableView fx:id="tableView" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
         <columns>
             <TableColumn fx:id="idColumn" text="ID" prefWidth="50.0" minWidth="50.0" resizable="true"/>
             <TableColumn fx:id="evColumn" text="Év" prefWidth="100.0" minWidth="50.0" resizable="true"/>
@@ -16,3 +16,5 @@
         </columns>
     </TableView>
 </AnchorPane>
+
+

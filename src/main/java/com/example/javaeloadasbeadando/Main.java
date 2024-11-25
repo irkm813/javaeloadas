@@ -39,7 +39,7 @@ public class Main extends Application {
         switchPage("WelcomePage");
 
         // Scene and stage setup
-        Scene scene = new Scene(root, 800, 600);
+        Scene scene = new Scene(root, 1280, 720);
         primaryStage.setTitle("JavaFX App");
         primaryStage.setScene(scene);
         primaryStage.show();

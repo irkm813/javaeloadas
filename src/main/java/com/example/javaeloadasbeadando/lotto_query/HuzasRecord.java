@@ -1,13 +1,21 @@
 package com.example.javaeloadasbeadando.lotto_query;
 
-public class HuzasRecord {
-    private int id;
-    private int ev;
-    private int het;
-    private String szamok; // Az összes szám szövegként, vesszővel elválasztva
-    private String talalatok; // Találatok szövegként, vesszővel elválasztva
+import java.util.List;
+import java.util.Arrays;
+import java.util.Collections;
 
-    public HuzasRecord(int id, int ev, int het, String szamok, String talalatok) {
+public class HuzasRecord {
+    private Integer id; // Az int helyett Integer, hogy lehessen null érték
+    private Integer ev;
+    private Integer het;
+    private String szamok;
+    private String talalatok;
+
+    // Alapértelmezett konstruktor
+    public HuzasRecord() {}
+
+    // Paraméterezett konstruktor
+    public HuzasRecord(Integer id, Integer ev, Integer het, String szamok, String talalatok) {
         this.id = id;
         this.ev = ev;
         this.het = het;
@@ -15,16 +23,16 @@ public class HuzasRecord {
         this.talalatok = talalatok;
     }
 
-    // Getters
-    public int getId() {
+    // Getterek
+    public Integer getId() {
         return id;
     }
 
-    public int getEv() {
+    public Integer getEv() {
         return ev;
     }
 
-    public int getHet() {
+    public Integer getHet() {
         return het;
     }
 
@@ -35,5 +43,33 @@ public class HuzasRecord {
     public String getTalalatok() {
         return talalatok;
     }
-}
 
+    // Setterek
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setEv(Integer ev) {
+        this.ev = ev;
+    }
+
+    public void setHet(Integer het) {
+        this.het = het;
+    }
+
+    public void setSzamok(String szamok) {
+        this.szamok = szamok;
+    }
+
+    public void setTalalatok(String talalatok) {
+        this.talalatok = talalatok;
+    }
+
+    // Találatok listába bontása
+    public List<String> getTalalatokList() {
+        if (talalatok != null && !talalatok.isEmpty()) {
+            return Arrays.asList(talalatok.split(","));
+        }
+        return Collections.emptyList();
+    }
+}

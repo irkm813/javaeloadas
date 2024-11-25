@@ -65,7 +65,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Nerik/JavaE/libs/mysql-connector-j-9.1.0",
+    "last_opened_file_path": "D:/Nerik/JavaE/libs/mysql-connector-j-9.1.0",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -141,6 +141,7 @@
       <workItem from="1732532927203" duration="266000" />
       <workItem from="1732533228843" duration="1139000" />
       <workItem from="1732534429596" duration="2887000" />
+      <workItem from="1732540041671" duration="8904000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, frontend megvan, meg a skeleton">
       <option name="closed" value="true" />
