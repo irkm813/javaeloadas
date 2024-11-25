@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.javaeloadasbeadando.controllers.OlvasController"
-            prefHeight="400.0" prefWidth="600.0">
-
+            fx:controller="com.example.javaeloadasbeadando.controllers.OlvasController">
+    <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="372.0" prefWidth="772.0">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" prefWidth="50.0" minWidth="50.0" resizable="true"/>
+            <TableColumn fx:id="evColumn" text="Év" prefWidth="100.0" minWidth="50.0" resizable="true"/>
+            <TableColumn fx:id="hetColumn" text="Hét" prefWidth="100.0" minWidth="50.0" resizable="true"/>
+            <TableColumn fx:id="szamokColumn" text="Számok" prefWidth="220.0" minWidth="100.0" resizable="true"/>
+            <TableColumn fx:id="talalatokColumn" text="Találatok" prefWidth="220.0" minWidth="100.0" resizable="true"/>
+        </columns>
+    </TableView>
 </AnchorPane>

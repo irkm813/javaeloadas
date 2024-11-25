@@ -1,25 +1,17 @@
 package com.example.javaeloadasbeadando;
 
-import com.example.javaeloadasbeadando.util.PageLoader;
+import com.example.javaeloadasbeadando.utils.PageLoader;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import javafx.application.Application;
-import javafx.scene.Scene;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
-import javafx.scene.text.Text;
-import javafx.stage.Stage;
-import java.util.Properties;
 
 public class Main extends Application {
     private StackPane contentPane;
