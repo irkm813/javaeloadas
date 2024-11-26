@@ -62,12 +62,16 @@ public class Main extends Application {
         MenuItem olvasItem = new MenuItem("Olvas");
         MenuItem olvas2Item = new MenuItem("Olvas2");
         MenuItem irItem = new MenuItem("Ír");
+        MenuItem modositItem = new MenuItem("Módosít");
+        MenuItem torolItem = new MenuItem("Töröl");
 
         olvasItem.setOnAction(e -> switchPage("OlvasPage"));
         olvas2Item.setOnAction(e -> switchPage("Olvas2Page"));
         irItem.setOnAction(e -> switchPage("IrPage"));
+        modositItem.setOnAction(e -> switchPage("ModositPage"));
+        torolItem.setOnAction(e -> switchPage("TorolPage"));
 
-        adatbazisMenu.getItems().addAll(olvasItem, olvas2Item, irItem);
+        adatbazisMenu.getItems().addAll(olvasItem, olvas2Item, irItem, modositItem, torolItem);
 
 
         // Soap Kliens menü

@@ -51,7 +51,7 @@ public class Olvas2Controller {
     @FXML
     public void initialize() {
         talalatComboBox.setItems(FXCollections.observableArrayList(
-                "Nincs szűrő", "1 találat", "2 találat", "3 találat", "4 találat", "5 találat", "6 találat", "5+1 találat"
+                "Nincs szűrő", "3 találat", "4 találat", "5 találat", "6 találat", "5+1 találat"
         ));
         talalatComboBox.setValue("Nincs szűrő");
         toggleGroup = new ToggleGroup();  // Ez szükséges, ha nem történik meg az automatikus injektálás

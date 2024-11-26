@@ -1,14 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.example.javaeloadasbeadando.controllers.ModositController"
-            prefHeight="400.0" prefWidth="600.0">
+            prefHeight="700.0" prefWidth="800.0">
 
+    <!-- Cím középen felül -->
+    <VBox alignment="CENTER" spacing="20.0" AnchorPane.topAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <Label text="Rekord módosítása" style="-fx-font-size: 28px; -fx-font-weight: bold;"/>
+    </VBox>
+
+    <!-- Mezők középen -->
+    <VBox alignment="CENTER" spacing="20.0" AnchorPane.topAnchor="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <!-- Rekord kiválasztása -->
+        <VBox alignment="CENTER" spacing="5.0">
+            <Label text="Válassz egy rekordot (ID):" style="-fx-font-size: 16px;"/>
+            <ComboBox fx:id="recordComboBox" style="-fx-font-size: 14px;" />
+        </VBox>
+
+        <!-- Év és Hét mezők egymás mellett -->
+        <HBox alignment="CENTER" spacing="30.0">
+            <!-- Év mező -->
+            <VBox alignment="CENTER" spacing="5.0">
+                <Label text="Év:" style="-fx-font-size: 16px;"/>
+                <ComboBox fx:id="evComboBox" style="-fx-font-size: 14px;" />
+            </VBox>
+            <!-- Hét mező -->
+            <VBox alignment="CENTER" spacing="5.0">
+                <Label text="Hét:" style="-fx-font-size: 16px;"/>
+                <ComboBox fx:id="hetComboBox" style="-fx-font-size: 14px;" />
+            </VBox>
+        </HBox>
+
+        <!-- Számok mező -->
+        <VBox alignment="CENTER" spacing="10.0">
+            <Label text="Számok:" style="-fx-font-size: 16px;"/>
+            <TextField fx:id="szamokField" promptText="Add meg a számokat vesszővel elválasztva"
+                       style="-fx-font-size: 14px;" maxWidth="280"/>
+        </VBox>
+
+        <!-- Találatok és nyeremény mezők -->
+        <VBox alignment="CENTER" spacing="20.0" AnchorPane.topAnchor="250.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <HBox alignment="CENTER" spacing="10.0">
+                <VBox alignment="CENTER" spacing="5.0">
+                    <CheckBox fx:id="talalat3Check" text="3 találat"/>
+                    <TextField fx:id="darab3Field" promptText="Darab" style="-fx-font-size: 14px;" maxWidth="100" disable="true"/>
+                    <TextField fx:id="ertek3Field" promptText="Nyeremény" style="-fx-font-size: 14px;" maxWidth="150" disable="true"/>
+                </VBox>
+                <VBox alignment="CENTER" spacing="5.0">
+                    <CheckBox fx:id="talalat4Check" text="4 találat"/>
+                    <TextField fx:id="darab4Field" promptText="Darab" style="-fx-font-size: 14px;" maxWidth="100" disable="true"/>
+                    <TextField fx:id="ertek4Field" promptText="Nyeremény" style="-fx-font-size: 14px;" maxWidth="150" disable="true"/>
+                </VBox>
+                <VBox alignment="CENTER" spacing="5.0">
+                    <CheckBox fx:id="talalat5Check" text="5 találat"/>
+                    <TextField fx:id="darab5Field" promptText="Darab" style="-fx-font-size: 14px;" maxWidth="100" disable="true"/>
+                    <TextField fx:id="ertek5Field" promptText="Nyeremény" style="-fx-font-size: 14px;" maxWidth="150" disable="true"/>
+                </VBox>
+                <VBox alignment="CENTER" spacing="5.0">
+                    <CheckBox fx:id="talalat6Check" text="6 találat"/>
+                    <TextField fx:id="darab6Field" promptText="Darab" style="-fx-font-size: 14px;" maxWidth="100" disable="true"/>
+                    <TextField fx:id="ertek6Field" promptText="Nyeremény" style="-fx-font-size: 14px;" maxWidth="150" disable="true"/>
+                </VBox>
+                <VBox alignment="CENTER" spacing="5.0">
+                    <CheckBox fx:id="talalat7Check" text="5+1 találat"/>
+                    <TextField fx:id="darab7Field" promptText="Darab" style="-fx-font-size: 14px;" maxWidth="100" disable="true"/>
+                    <TextField fx:id="ertek7Field" promptText="Nyeremény" style="-fx-font-size: 14px;" maxWidth="150" disable="true"/>
+                </VBox>
+            </HBox>
+        </VBox>
+
+
+        <!-- Gombok -->
+        <HBox spacing="20" alignment="CENTER">
+            <Button text="Mentés" onAction="#handleSave" style="-fx-font-size: 14px;"/>
+            <Button text="Mégse" onAction="#handleCancel" style="-fx-font-size: 14px;"/>
+        </HBox>
+    </VBox>
+
+    <!-- LogBox -->
+    <VBox alignment="CENTER" spacing="10.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+        <Label text="Log:" style="-fx-font-size: 16px;"/>
+        <TextArea fx:id="logBox" prefHeight="150.0" wrapText="true" editable="false" style="-fx-font-size: 14px;"/>
+    </VBox>
 </AnchorPane>
