@@ -70,7 +70,6 @@ public class SzamlaInfoController {
                 addData(key, value);
             }
 
-            welcomeText.setText(summary.toString());
         } catch (Exception e) {
             e.printStackTrace();
         }

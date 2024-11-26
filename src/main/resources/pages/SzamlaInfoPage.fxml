@@ -7,8 +7,6 @@
 <?import javafx.scene.layout.*?>
 
 <StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javaeloadasbeadando.controllers.SzamlaInfoController">
-    <Label text="Szamlainfo Page" />
-    <TextArea fx:id="welcomeText"/>
     <TableView fx:id="SzamlaInfotableView" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
         <columns>
             <TableColumn fx:id="nevColumn" text="Név" prefWidth="50.0" minWidth="50.0" resizable="true"/>
