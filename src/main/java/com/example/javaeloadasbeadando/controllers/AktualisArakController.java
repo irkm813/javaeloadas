@@ -14,13 +14,42 @@ import com.oanda.v20.pricing.ClientPrice;
 import com.oanda.v20.pricing.PricingGetRequest;
 import com.oanda.v20.pricing.PricingGetResponse;
 import com.oanda.v20.primitives.DateTime;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 
 
 public class AktualisArakController {
 
     @FXML
-    protected void onCLick() throws IOException {
+    private ComboBox<String> comboBox;
+
+    @FXML
+    private Label resultArea;
+
+    String[] currencyPairs = {"EUR:USD", "USD:JPY", "GBP:USD", "USD:CHF"};
+
+    @FXML
+    public void initialize() {
+        // Az opciók hozzáadása a legördülő menühöz
+        comboBox.getItems().addAll(currencyPairs);
+    }
+
+    @FXML
+    public int onClick(ActionEvent actionEvent) throws IOException {
+
+        if (comboBox.getSelectionModel().getSelectedItem() == null) {
+            resultArea.setText("Az érték nem hagyható üresen!");
+            return 1;
+        }
+
+        String chosenValues = comboBox.getSelectionModel().getSelectedItem().replace(":","_");
+        String val1 = chosenValues.split("_")[0];
+        String val2 = chosenValues.split("_")[1];
+
+        System.out.println(chosenValues);
 
         Properties properties = new Properties();
         InputStream input = getClass().getClassLoader().getResourceAsStream("config.properties");
@@ -34,25 +63,16 @@ public class AktualisArakController {
 
         AccountID accountId = new AccountID(userId);
 
-        List<String> instruments = new ArrayList<>( Arrays.asList("EUR_USD", "USD_JPY",
-                "GBP_USD", "USD_CHF"));
         try {
-            PricingGetRequest request = new PricingGetRequest(accountId, instruments);
-            DateTime since = null;
-            while (true) {
-                if (since != null)
-                {
-                    System.out.println("Polling since " + since);
-                    request.setSince(since);
-                }
-                PricingGetResponse resp = ctx.pricing.get(request);
-                for (ClientPrice price : resp.getPrices())
-                    System.out.println(price);
-                since = resp.getTime();
-                Thread.sleep(1000);
-            }
+            PricingGetRequest request = new PricingGetRequest(accountId, List.of(chosenValues));
+            PricingGetResponse resp = ctx.pricing.get(request);
+            request.setSince(resp.getTime());
+            for (ClientPrice price : resp.getPrices())
+                resultArea.setText("1 "+val1+" értéke: "+price.getAsks().get(1).getPrice() + val2 +"\n");
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+        return 0;
     }
 }

@@ -4,37 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aa5a4f2-d3b8-4198-b673-13f55e53bcf0" name="Changes" comment="Az oanda api jól megy, ki tudom iratni, de a formátum hányadék, sikerült az mnb-s class-okat is hozzáadni ehhez a szerencsétlen projekthez, valamint megoldottam, hogy minden dependency-t maven-ből töltsön be. Még pár ilyen este és felkötöm magam.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/utils/MnbHelper.java" afterDir="false" />
+    <list default="true" id="9aa5a4f2-d3b8-4198-b673-13f55e53bcf0" name="Changes" comment="A letöltés és a számlainformációk menüpontok jól működnek. A Depencency-k még mindig nem voltak jók. Azoknak az újraexportálása 456 alkalommal.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/AktualisArakController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/AktualisArakController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/LetoltesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/LetoltesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/HistorikusArakController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/HistorikusArakController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/NyitottPoziciokController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/NyitottPoziciokController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioNyitasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioNyitasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioZarasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioZarasController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/SzamlaInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/SzamlaInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetCurrenciesRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetCurrenciesResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetCurrencyUnitsRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetCurrencyUnitsResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetCurrentExchangeRatesRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetCurrentExchangeRatesResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetDateIntervalRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetDateIntervalResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetExchangeRatesRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetExchangeRatesResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetInfoRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/GetInfoResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/MNBArfolyamServiceSoap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/MNBArfolyamServiceSoapGetCurrenciesStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/MNBArfolyamServiceSoapGetCurrencyUnitsStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/MNBArfolyamServiceSoapGetCurrentExchangeRatesStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/MNBArfolyamServiceSoapGetDateIntervalStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/MNBArfolyamServiceSoapGetExchangeRatesStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/MNBArfolyamServiceSoapGetInfoStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/MNBArfolyamServiceSoapImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mnbapi/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/LetoltesPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/LetoltesPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/AktualisArakPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/AktualisArakPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/HistorikusArakPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/HistorikusArakPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/NyitottPoziciokPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/NyitottPoziciokPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/PozicioNyitasPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/PozicioNyitasPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/PozicioZarasPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/PozicioZarasPage.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/SzamlaInfoPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/SzamlaInfoPage.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,39 +64,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.JavaEloadasBeadando.executor": "Run",
-    "Maven.FX_Forint [clean].executor": "Run",
-    "Maven.FX_Forint [install].executor": "Run",
-    "Maven.JavaEloadasBeadando [-Dcheckstyle.skip=true...].executor": "Run",
-    "Maven.JavaEloadasBeadando [clean].executor": "Run",
-    "Maven.JavaEloadasBeadando [compile].executor": "Run",
-    "Maven.JavaEloadasBeadando [dependency:tree].executor": "Run",
-    "Maven.JavaEloadasBeadando [install].executor": "Run",
-    "Maven.JavaEloadasBeadando [jaxws:wsimport].executor": "Run",
-    "Maven.JavaEloadasBeadando [validate].executor": "Run",
-    "Maven.javaeloadasbeadando [clean].executor": "Run",
-    "Maven.javaeloadasbeadando [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Ferko/Documents/javaeloadas/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "http.certificates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JavaEloadasBeadando.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FX_Forint [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FX_Forint [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [-Dcheckstyle.skip=true...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [dependency:tree].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [jaxws:wsimport].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaEloadasBeadando [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.javaeloadasbeadando [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.javaeloadasbeadando [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ferko/Documents/javaeloadas/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.certificates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ferko\Documents\javaeloadas\src\main\java" />
@@ -184,7 +167,8 @@
       <workItem from="1732571483358" duration="6387000" />
       <workItem from="1732640820551" duration="4335000" />
       <workItem from="1732645584279" duration="2710000" />
-      <workItem from="1732648317250" duration="6910000" />
+      <workItem from="1732648317250" duration="7165000" />
+      <workItem from="1732730210756" duration="16699000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, frontend megvan, meg a skeleton">
       <option name="closed" value="true" />
@@ -202,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732577883220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="A letöltés és a számlainformációk menüpontok jól működnek. A Depencency-k még mindig nem voltak jók. Azoknak az újraexportálása 456 alkalommal.">
+      <option name="closed" value="true" />
+      <created>1732655434667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732655434667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit, frontend megvan, meg a skeleton" />
     <MESSAGE value="Az oanda api jól megy, ki tudom iratni, de a formátum hányadék, sikerült az mnb-s class-okat is hozzáadni ehhez a szerencsétlen projekthez, valamint megoldottam, hogy minden dependency-t maven-ből töltsön be. Még pár ilyen este és felkötöm magam." />
-    <option name="LAST_COMMIT_MESSAGE" value="Az oanda api jól megy, ki tudom iratni, de a formátum hányadék, sikerült az mnb-s class-okat is hozzáadni ehhez a szerencsétlen projekthez, valamint megoldottam, hogy minden dependency-t maven-ből töltsön be. Még pár ilyen este és felkötöm magam." />
+    <MESSAGE value="A letöltés és a számlainformációk menüpontok jól működnek. A Depencency-k még mindig nem voltak jók. Azoknak az újraexportálása 456 alkalommal." />
+    <option name="LAST_COMMIT_MESSAGE" value="A letöltés és a számlainformációk menüpontok jól működnek. A Depencency-k még mindig nem voltak jók. Azoknak az újraexportálása 456 alkalommal." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

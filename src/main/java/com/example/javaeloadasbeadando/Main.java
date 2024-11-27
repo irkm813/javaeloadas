@@ -102,14 +102,16 @@ public class Main extends Application {
         MenuItem historikusArakItem = new MenuItem("Historikus Árak");
         MenuItem pozincioNyitasItem = new MenuItem("Pozició nyitás");
         MenuItem pozicioZarasItem = new MenuItem("Pozició Zárás");
+        MenuItem nyitottPoziciokItem = new MenuItem("Nyitott Poziciók");
 
         szamlainfokItem.setOnAction(e -> switchPage("SzamlaInfoPage"));
         aktualisArakItem.setOnAction(e->switchPage("AktualisArakPage"));
         historikusArakItem.setOnAction(e->switchPage("HistorikusArakPage"));
-        pozincioNyitasItem.setOnAction(e->switchPage("PozincioNyitasPage"));
+        pozincioNyitasItem.setOnAction(e->switchPage("PozicioNyitasPage"));
         pozicioZarasItem.setOnAction(e->switchPage("PozicioZarasPage"));
+        nyitottPoziciokItem.setOnAction(e->switchPage("NyitottPoziciokPage"));
 
-        forexMenu.getItems().addAll(szamlainfokItem,aktualisArakItem,historikusArakItem,pozincioNyitasItem,pozicioZarasItem);
+        forexMenu.getItems().addAll(szamlainfokItem,aktualisArakItem,historikusArakItem,pozincioNyitasItem,pozicioZarasItem,nyitottPoziciokItem);
 
         // Add menus to the menu bar
         menuBar.getMenus().addAll(fileMenu, adatbazisMenu, soapKliensMenu, parhuzamosMenu, forexMenu);

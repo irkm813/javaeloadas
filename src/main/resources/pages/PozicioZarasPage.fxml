@@ -6,9 +6,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.javaeloadasbeadando.controllers.PozicioZarasController"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<VBox xmlns="http://javafx.com/" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.javaeloadasbeadando.controllers.PozicioZarasController" spacing="10" alignment="CENTER">
+    <ComboBox fx:id="idBox" prefWidth="150" />
+    <Button text="Zárás" onAction="#onClick" />
+    <Label fx:id="welcomeText"></Label>
+</VBox>

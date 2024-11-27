@@ -6,9 +6,29 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.javaeloadasbeadando.controllers.HistorikusArakController"
-            prefHeight="400.0" prefWidth="600.0">
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<VBox xmlns="http://javafx.com/" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.javaeloadasbeadando.controllers.HistorikusArakController" spacing="10" alignment="CENTER">
 
-</AnchorPane>
+    <HBox spacing="10" alignment="CENTER">
+        <Label>Devizapár</Label>
+        <ComboBox fx:id="devizaBox" prefWidth="150" />
+        <Label>Kezdődátum</Label>
+        <DatePicker fx:id="startDatePicker" />
+        <Label>Végdátum</Label>
+        <DatePicker fx:id="endDatePicker" />
+        <Button text="Mutasd az eredményt" onAction="#onClick" />
+        <Label fx:id="resultArea" />
+    </HBox>
+    <LineChart fx:id="dateValueChart">
+        <xAxis>
+            <CategoryAxis fx:id="dateAxis" label="Dátum"/>
+        </xAxis>
+        <yAxis>
+            <NumberAxis fx:id="valueAxis" label="Érték"/>
+        </yAxis>
+    </LineChart>
+
+</VBox>

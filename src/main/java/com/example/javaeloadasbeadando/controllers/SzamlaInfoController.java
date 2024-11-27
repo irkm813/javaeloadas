@@ -35,13 +35,11 @@ public class SzamlaInfoController {
     private final ObservableList<OandaData> dataList = FXCollections.observableArrayList();
 
     @FXML
-    protected void onShowButtonClick() throws IOException {
+    protected void initialize() throws IOException {
 
         // Oszlopok összekapcsolása a Data osztály mezőivel
         nevColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
         ertekColumn.setCellValueFactory(new PropertyValueFactory<>("value"));
-
-        showButton.setVisible(false);
 
         Properties properties = new Properties();
         InputStream input = getClass().getClassLoader().getResourceAsStream("config.properties");
