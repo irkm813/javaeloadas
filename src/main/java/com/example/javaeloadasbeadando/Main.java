@@ -86,9 +86,9 @@ public class Main extends Application {
 
         soapKliensMenu.getItems().addAll(letoltesItem, letoltes2Item, grafikonItem);
 
-        // Soap Kliens menü
+        // Parhuzamos végrehajtás menü
         Menu parhuzamosMenu = new Menu("Párhuzamos");
-        MenuItem parhuzamosItem = new MenuItem("Párhuzamos programvégrahajtás");
+        MenuItem parhuzamosItem = new MenuItem("Párhuzamos végrahajtás");
 
         parhuzamosItem.setOnAction(e -> switchPage("ParhuzamosPage"));
 
@@ -112,7 +112,7 @@ public class Main extends Application {
         forexMenu.getItems().addAll(szamlainfokItem,aktualisArakItem,historikusArakItem,pozincioNyitasItem,pozicioZarasItem);
 
         // Add menus to the menu bar
-        menuBar.getMenus().addAll(fileMenu, adatbazisMenu, soapKliensMenu, forexMenu);
+        menuBar.getMenus().addAll(fileMenu, adatbazisMenu, soapKliensMenu, parhuzamosMenu, forexMenu);
 
         return menuBar;
     }
