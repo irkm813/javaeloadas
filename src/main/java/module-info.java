@@ -6,6 +6,7 @@ module com.example.javaeloadasbeadando {
     requires httpcore;
     requires httpclient;
     requires java.sql;
+    requires org.joda.time;
 
     opens com.oanda.v20;
     opens com.oanda.v20.account;

@@ -43,9 +43,7 @@ public class PozicioZarasController {
         List<String> lehetsegesertekek = Nyitottlistaz();
 
         idBox.getItems().addAll(lehetsegesertekek);
-
     }
-
 
     @FXML
     protected void onClick() {

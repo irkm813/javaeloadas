@@ -15,10 +15,6 @@ import java.util.Map;
 public class LetoltesController {
     @FXML
     public Label textLabel1;
-    @FXML
-    public Label textLabel2;
-    @FXML
-    public Label textLabel3;
 
     @FXML
     public void initialize() {

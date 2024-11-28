@@ -1,15 +1,18 @@
 package com.example.javaeloadasbeadando.controllers;
 
+import com.example.javaeloadasbeadando.models.NyitottPoziciokData;
+import com.example.javaeloadasbeadando.models.OandaData;
 import com.oanda.v20.ContextBuilder;
 import com.oanda.v20.ExecuteException;
 import com.oanda.v20.RequestException;
 import com.oanda.v20.account.AccountID;
 import com.oanda.v20.trade.Trade;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import com.oanda.v20.Context;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,10 +23,31 @@ public class NyitottPoziciokController {
 
     static Context ctx;
     static AccountID accountId;
+
+    @FXML
+    private TableView nyitottPoziciokTableView;
+
     @FXML
     public ComboBox idBox;
     @FXML
     private Label welcomeText;
+
+    @FXML
+    private TableColumn<NyitottPoziciokData, String> idColumn;
+    @FXML
+    private TableColumn<NyitottPoziciokData, String> instrumentsColumn;
+    @FXML
+    private TableColumn<NyitottPoziciokData, String> openedAtColumn;
+    @FXML
+    private TableColumn<NyitottPoziciokData, String> currentUnitsColumn;
+    @FXML
+    private TableColumn<NyitottPoziciokData, String> priceColumn;
+    @FXML
+    private TableColumn<NyitottPoziciokData, String> unrealizedPlColumn;
+
+    // Adatok listája
+    private final ObservableList<NyitottPoziciokData> dataList = FXCollections.observableArrayList();
+
     @FXML
     protected void initialize() throws IOException {
 
@@ -39,8 +63,18 @@ public class NyitottPoziciokController {
             ctx = new
                     ContextBuilder("https://api-fxpractice.oanda.com").setToken(apiKey).setApplication("StepByStepOrder").build();
             accountId =new AccountID(userId);
+
+            // Oszlopok összekötése a NyitottPoziciokData osztály mezőivel
+            idColumn.setCellValueFactory(new PropertyValueFactory<>("id"));
+            instrumentsColumn.setCellValueFactory(new PropertyValueFactory<>("instrument"));
+            openedAtColumn.setCellValueFactory(new PropertyValueFactory<>("openedAt"));
+            currentUnitsColumn.setCellValueFactory(new PropertyValueFactory<>("currentUnits"));
+            priceColumn.setCellValueFactory(new PropertyValueFactory<>("price"));
+
             if(true) NyitotttradekKiír();
             welcomeText.setText(welcomeText.getText() + "\n" +"Done");
+
+            nyitottPoziciokTableView.setItems(dataList);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -50,6 +84,11 @@ public class NyitottPoziciokController {
         List<Trade> trades = ctx.trade.listOpen(accountId).getTrades();
         welcomeText.setText(welcomeText.getText() + "id\t"+"instruments\t"+"openedat\t"+"currentunits\t"+"price\t");
         for(Trade trade: trades)
-            welcomeText.setText(welcomeText.getText() + "\n"+trade.getId()+"\t"+trade.getInstrument()+"\t"+trade.getOpenTime()+"\t"+trade.getCurrentUnits()+"\t"+trade.getPrice()+"\t"+trade.getUnrealizedPL());
+            dataList.add(new NyitottPoziciokData(
+                    trade.getId().toString(),
+                    trade.getInstrument().toString(),
+                    trade.getOpenTime().toString(),
+                    trade.getCurrentUnits().toString(),
+                    trade.getPrice().toString()));
     }
 }
