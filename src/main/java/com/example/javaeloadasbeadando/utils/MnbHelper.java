@@ -11,11 +11,13 @@ import org.w3c.dom.NodeList;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
+import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.ByteArrayInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.text.NumberFormat;
@@ -74,9 +76,34 @@ public class MnbHelper {
         return penznemek;
     }
 
-    public String getExchangeRate(String currency, String startDate) throws MNBArfolyamServiceSoapGetExchangeRatesStringFaultFaultMessage {
+    public String getExchangeRate(String currency, String startDate, Boolean csudaszep) throws MNBArfolyamServiceSoapGetExchangeRatesStringFaultFaultMessage, ParserConfigurationException, IOException, SAXException {
         String exch = service.getExchangeRates(startDate, startDate, currency);
-        return exch;
+        if (!csudaszep){
+            return exch;
+        }else{
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            InputStream inputStream = new ByteArrayInputStream(exch.getBytes(StandardCharsets.UTF_8));
+            Document doc = builder.parse(inputStream);
+
+            // Gyökérelem lekérése
+            Element root = doc.getDocumentElement();
+
+            // Pénznemek listájának feldolgozása
+            NodeList currencyRates = doc.getElementsByTagName("Rate");
+
+            if (currencyRates.getLength() > 0) {
+                // Az első <Rate> elem lekérése
+                Node rateNode = currencyRates.item(0);
+
+                // A szövegtartalom lekérése
+                String rateValue = rateNode.getTextContent().trim();
+
+                return rateValue;
+            } else {
+                throw new IllegalArgumentException("Nem található <Rate> elem az XML-ben.");
+            }
+        }
     }
 
     public List<XYChart.Data<String, Number>> getExchangeRates(String currency, String startDate, String endDate) throws MNBArfolyamServiceSoapGetExchangeRatesStringFaultFaultMessage, ParserConfigurationException {

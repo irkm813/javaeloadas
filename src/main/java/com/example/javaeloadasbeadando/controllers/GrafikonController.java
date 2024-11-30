@@ -40,6 +40,8 @@ public class GrafikonController {
     @FXML
     void onClick() throws MNBArfolyamServiceSoapGetExchangeRatesStringFaultFaultMessage, ParserConfigurationException {
 
+        dateValueChart.getData().clear();
+
         LineChart.Series<String, Number> series = new LineChart.Series<>();
         series.setName("Dátum/Érték adatsor");
 

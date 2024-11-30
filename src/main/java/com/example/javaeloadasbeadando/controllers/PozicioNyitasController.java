@@ -74,7 +74,7 @@ public class PozicioNyitasController {
     }
 
     void Nyitás(String devizaPar,String mennyiseg, String irany){
-        welcomeText.setText(welcomeText.getText() + "\n" +"Place a Market Order");
+        welcomeText.setText(welcomeText.getText() + "\n" +"Nyitás:");
         InstrumentName instrument = new InstrumentName(devizaPar);
 
         int deviza = Integer.parseInt(mennyiseg);
@@ -93,7 +93,10 @@ public class PozicioNyitasController {
             OrderCreateResponse response = ctx.order.create(request);
             welcomeText.setText(welcomeText.getText() + "\n" +"tradeId: "+response.getOrderFillTransaction().getId());
         } catch (Exception e) {
+            welcomeText.setText(welcomeText.getText() + "\n" +"Sikertelen nyitás! :(");
             throw new RuntimeException(e);
         }
+
+        welcomeText.setText(welcomeText.getText() + "\n" +"A nyitás sikeres volt!");
     }
 }

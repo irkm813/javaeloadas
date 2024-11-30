@@ -40,7 +40,7 @@ public class Main extends Application {
 
         // Scene and stage setup
         Scene scene = new Scene(root, 1280, 720);
-        primaryStage.setTitle("JavaFX App");
+        primaryStage.setTitle("CSTP_BEADANDO");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

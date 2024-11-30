@@ -15,11 +15,11 @@
     <HBox spacing="10" alignment="CENTER">
         <Label>Valuta:</Label>
         <ComboBox fx:id="currencyComboBox" prefWidth="150" />
-        <Label>Dátum:</Label>
+        <Label>Kezdő dátum:</Label>
         <DatePicker fx:id="startDatePicker"/>
+        <Label>Záró dátum:</Label>
         <DatePicker fx:id="endDatePicker"/>
-        <RadioButton fx:id="toggleFieldButton" text="Szöveg Formázása könnyen olvasható formába" />
-        <Button fx:id="SaveButton" text="Adatok Letöltése" onAction="#onClick"/>
+        <Button fx:id="SaveButton" text="Adatok Megjelenítése" onAction="#onClick"/>
     </HBox>
 
     <LineChart fx:id="dateValueChart">

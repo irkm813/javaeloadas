@@ -4,5 +4,5 @@
 <?import javafx.scene.control.Label?>
 
 <StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javaeloadasbeadando.controllers.WelcomeController">
-    <Label text="Welcome Page" />
+    <Label text="Üdvözöljük a kezdőoldalon. Kérem válasszon a fenti menük egyike közül!" />
 </StackPane>

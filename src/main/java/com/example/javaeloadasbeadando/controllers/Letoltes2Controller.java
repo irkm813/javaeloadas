@@ -15,7 +15,7 @@ public class Letoltes2Controller {
     @FXML
     public ComboBox currencyComboBox;
     @FXML
-    public javafx.scene.control.DatePicker startDatePicker;
+    public DatePicker startDatePicker;
     @FXML
     public RadioButton toggleFieldButton;
     @FXML
@@ -34,7 +34,7 @@ public class Letoltes2Controller {
     void onClick() throws MNBArfolyamServiceSoapGetExchangeRatesStringFaultFaultMessage {
         String currency = currencyComboBox.getSelectionModel().getSelectedItem().toString();
         String startDate = startDatePicker.getValue().toString();
-        System.out.println(mnbHelper.getExchangeRate(currency, startDate));
+        Boolean toggleField = toggleFieldButton.isSelected();
 
         FileChooser fileChooser = new FileChooser();
         fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Text Files", "*.txt"));
@@ -44,7 +44,14 @@ public class Letoltes2Controller {
         if (file != null) {
 
             try (BufferedWriter writer = Files.newBufferedWriter(file.toPath())) {
-                writer.write(mnbHelper.getExchangeRate(currency, startDate));
+
+                String mnbResponse = mnbHelper.getExchangeRate(currency, startDate, toggleField);
+
+                if (toggleField) {
+                    mnbResponse = "A(z) "+currency+" valuta értéke a "+startDate+" napon: "+mnbResponse+" forint.";
+                }
+
+                writer.write(mnbResponse);
             } catch (Exception e) {
                 e.printStackTrace();
 

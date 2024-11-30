@@ -4,20 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aa5a4f2-d3b8-4198-b673-13f55e53bcf0" name="Changes" comment="Az összes OANDA api-s menü működik. Néhány még apró finomításra szorul, de a lényeg, hogy mennek.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/models/NyitottPoziciokData.java" afterDir="false" />
+    <list default="true" id="9aa5a4f2-d3b8-4198-b673-13f55e53bcf0" name="Changes" comment="Kisebb javítások, dokumentáció">
+      <change afterPath="$PROJECT_DIR$/Dokumentáció_Java_Eloadas.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/GrafikonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/GrafikonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Letoltes2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Letoltes2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/LetoltesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/LetoltesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/NyitottPoziciokController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/NyitottPoziciokController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioZarasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioZarasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioNyitasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioNyitasController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/utils/MnbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/utils/MnbHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrenciesRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrenciesResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrencyUnitsRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrencyUnitsResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrentExchangeRatesRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrentExchangeRatesResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetDateIntervalRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetDateIntervalResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetExchangeRatesRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetExchangeRatesResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetInfoRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetInfoResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetCurrenciesStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetCurrencyUnitsStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetCurrentExchangeRatesStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetDateIntervalStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetExchangeRatesStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetInfoStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/soap/package-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/pages/GrafikonPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/GrafikonPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/Letoltes2Page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/Letoltes2Page.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/NyitottPoziciokPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/NyitottPoziciokPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/WelcomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/WelcomePage.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +101,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ferko/Documents/javaeloadas/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ferko/Documents/java_gyak_beadando&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -169,7 +187,11 @@
       <workItem from="1732648317250" duration="7165000" />
       <workItem from="1732730210756" duration="16749000" />
       <workItem from="1732814514549" duration="12084000" />
-      <workItem from="1732827444731" duration="3270000" />
+      <workItem from="1732827444731" duration="3383000" />
+      <workItem from="1732886980710" duration="1333000" />
+      <workItem from="1732894295580" duration="2140000" />
+      <workItem from="1732918564650" duration="1871000" />
+      <workItem from="1732951435232" duration="6763000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, frontend megvan, meg a skeleton">
       <option name="closed" value="true" />
@@ -203,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732748856413</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="MINDEN MENÜPONT MŰKÖDIK, még pici igazítás, input ellenőrzés kell, de a lényeg kész. Soha többet nem fogok java-hoz nyúlni, köszönöm a lehetőséget.">
+      <option name="closed" value="true" />
+      <created>1732830843669</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732830843669</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +244,9 @@
     <MESSAGE value="Az oanda api jól megy, ki tudom iratni, de a formátum hányadék, sikerült az mnb-s class-okat is hozzáadni ehhez a szerencsétlen projekthez, valamint megoldottam, hogy minden dependency-t maven-ből töltsön be. Még pár ilyen este és felkötöm magam." />
     <MESSAGE value="A letöltés és a számlainformációk menüpontok jól működnek. A Depencency-k még mindig nem voltak jók. Azoknak az újraexportálása 456 alkalommal." />
     <MESSAGE value="Az összes OANDA api-s menü működik. Néhány még apró finomításra szorul, de a lényeg, hogy mennek." />
-    <option name="LAST_COMMIT_MESSAGE" value="Az összes OANDA api-s menü működik. Néhány még apró finomításra szorul, de a lényeg, hogy mennek." />
+    <MESSAGE value="MINDEN MENÜPONT MŰKÖDIK, még pici igazítás, input ellenőrzés kell, de a lényeg kész. Soha többet nem fogok java-hoz nyúlni, köszönöm a lehetőséget." />
+    <MESSAGE value="Kisebb javítások, dokumentáció" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kisebb javítások, dokumentáció" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
