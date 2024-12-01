@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.javaeloadasbeadando.controllers.Letoltes2Controller" spacing="10" alignment="CENTER">
+    <Label text="Valuta értékének letöltése a választott napon" style="-fx-font-size: 28px; -fx-font-weight: bold;"/>
+
+    <Label>Valuta:</Label>
+    <ComboBox fx:id="currencyComboBox" prefWidth="150" />
+    <Label>Dátum:</Label>
+    <DatePicker fx:id="startDatePicker"/>
+    <RadioButton fx:id="toggleFieldButton" text="Szöveg Formázása könnyen olvasható formába" />
+    <Button fx:id="SaveButton" text="Adatok Letöltése" onAction="#onClick"/>
+
+</VBox>

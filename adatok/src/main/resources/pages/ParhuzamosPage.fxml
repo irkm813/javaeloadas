@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.javaeloadasbeadando.controllers.ParhuzamosController"
+            prefHeight="700.0" prefWidth="800.0">
+
+    <!-- Cím középen felül -->
+    <VBox alignment="CENTER" spacing="20.0" AnchorPane.topAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <Label text="Párhuzamos Végrehajtás" style="-fx-font-size: 28px; -fx-font-weight: bold;"/>
+    </VBox>
+
+    <!-- Szövegek még lejjebb -->
+    <VBox alignment="CENTER" spacing="20.0" AnchorPane.topAnchor="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <!-- Állapot kijelző -->
+        <Label fx:id="statusLabel" text="Állapot: Leállítva" style="-fx-font-size: 20px; -fx-font-style: italic;"/>
+
+        <!-- Számlálók egymás mellett -->
+        <HBox alignment="CENTER" spacing="50.0">
+            <Label fx:id="labelOne" text="Első számláló: 0" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+            <Label fx:id="labelTwo" text="Második számláló: 0" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+        </HBox>
+    </VBox>
+
+    <!-- Gombok az aljához közel, de kicsit feljebb -->
+    <HBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <Button fx:id="startButton" text="Indítás" style="-fx-font-size: 18px; padding: 10px 20px;" />
+        <Button fx:id="pauseButton" text="Szünet" style="-fx-font-size: 18px; padding: 10px 20px;" />
+        <Button fx:id="stopButton" text="Leállítás" style="-fx-font-size: 18px; padding: 10px 20px;" />
+    </HBox>
+</AnchorPane>

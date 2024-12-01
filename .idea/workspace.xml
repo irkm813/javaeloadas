@@ -1,41 +1,345 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaEloadasBeadando:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aa5a4f2-d3b8-4198-b673-13f55e53bcf0" name="Changes" comment="Kisebb javítások, dokumentáció">
-      <change afterPath="$PROJECT_DIR$/Dokumentáció_Java_Eloadas.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/GrafikonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/GrafikonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Letoltes2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Letoltes2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioNyitasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioNyitasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/utils/MnbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/utils/MnbHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrenciesRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrenciesResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrencyUnitsRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrencyUnitsResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrentExchangeRatesRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetCurrentExchangeRatesResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetDateIntervalRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetDateIntervalResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetExchangeRatesRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetExchangeRatesResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetInfoRequestBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/GetInfoResponseBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetCurrenciesStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetCurrencyUnitsStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetCurrentExchangeRatesStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetDateIntervalStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetExchangeRatesStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapGetInfoStringFaultFaultMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/MNBArfolyamServiceSoapImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/soap/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/GrafikonPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/GrafikonPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/WelcomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages/WelcomePage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adatok/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adatok/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dokumentáció_Java_Eloadas.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/AktualisArakController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/GrafikonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/HistorikusArakController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/IrController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Letoltes2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/LetoltesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/ModositController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/NyitottPoziciokController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/Olvas2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/OlvasController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/ParhuzamosController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioNyitasController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/PozicioZarasController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/SzamlaInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/TorolController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/controllers/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/lotto_query/HuzasDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/lotto_query/HuzasRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/lotto_query/HuzasTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/models/NyitottPoziciokData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/models/OandaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/utils/DatabaseHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/utils/MnbHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaeloadasbeadando/utils/PageLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetCurrenciesRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetCurrenciesResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetCurrencyUnitsRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetCurrencyUnitsResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetCurrentExchangeRatesRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetCurrentExchangeRatesResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetDateIntervalRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetDateIntervalResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetExchangeRatesRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetExchangeRatesResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetInfoRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/GetInfoResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/MNBArfolyamServiceSoap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/MNBArfolyamServiceSoapGetCurrenciesStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/MNBArfolyamServiceSoapGetCurrencyUnitsStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/MNBArfolyamServiceSoapGetCurrentExchangeRatesStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/MNBArfolyamServiceSoapGetDateIntervalStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/MNBArfolyamServiceSoapGetExchangeRatesStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/MNBArfolyamServiceSoapGetInfoStringFaultFaultMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/MNBArfolyamServiceSoapImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mnbapi/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/ContextBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/ExecuteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountChanges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountChangesRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountChangesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountChangesState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountConfigure400RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountConfigure403RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountConfigureRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountConfigureResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountFinancingMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountGetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountInstrumentsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountInstrumentsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/AccountSummaryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/CalculatedAccountState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/GuaranteedStopLossOrderMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/account/PositionAggregationMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/Candlestick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/CandlestickData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/CandlestickGranularity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentCandlesRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentCandlesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentOrderBookRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentOrderBookResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentPositionBookRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentPositionBookResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentPriceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentPriceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentPricesRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/InstrumentPricesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/OrderBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/OrderBookBucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/PositionBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/PositionBookBucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/instrument/WeeklyAlignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/CancellableOrderType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/DynamicOrderState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/FixedPriceOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/GuaranteedStopLossOrderEntryData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/LimitOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/LimitOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/MarketIfTouchedOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/MarketIfTouchedOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/MarketOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/MarketOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderCancel404RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderCancelResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderCreate400RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderCreate404RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderCreateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderCreateResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderGetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderIdentifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderListPendingResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderListRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderPositionFill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderReplace400RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderReplace404RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderReplaceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderReplaceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderSetClientExtensions400RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderSetClientExtensions404RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderSetClientExtensionsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderSetClientExtensionsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderSpecifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderStateFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderTriggerCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/OrderType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/StopLossOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/StopLossOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/StopOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/StopOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/TakeProfitOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/TakeProfitOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/TimeInForce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/TrailingStopLossOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/TrailingStopLossOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/UnitsAvailable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/order/UnitsAvailableDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/CalculatedPositionState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/PositionClose400RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/PositionClose404RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/PositionCloseRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/PositionCloseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/PositionContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/PositionGetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/PositionListOpenResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/PositionListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/position/PositionSide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/ClientPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/HomeConversions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PriceStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingBasePricesRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingBasePricesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingCandlesRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingCandlesResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingGetPriceRangeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingGetPriceRangeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingGetRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingGetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/PricingHeartbeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing/QuoteHomeConversionFactors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing_common/Price.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing_common/PriceBucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/pricing_common/PriceValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/AcceptDatetimeFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/AccountUnits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/Currency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/DateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/DecimalNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/GuaranteedStopLossOrderLevelRestriction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/Instrument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/InstrumentCommission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/InstrumentName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/InstrumentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/NullableType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/NullableTypeAdapterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/primitives/StringPrimitive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/site/MT4TransactionHeartbeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/CalculatedTradeState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/Trade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeClose400RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeClose404RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeCloseRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeCloseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeGetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeListOpenResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeListRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradePL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeSetClientExtensions400RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeSetClientExtensions404RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeSetClientExtensionsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeSetClientExtensionsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeSetDependentOrders400RequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeSetDependentOrdersRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeSetDependentOrdersResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeSpecifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeStateFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/trade/TradeSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/ClientComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/ClientConfigureRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/ClientConfigureTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/ClientExtensions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/ClientID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/ClientRequestID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/ClientTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/CloseTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/CreateTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/DailyFinancingTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/DelayedTradeClosureTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/FixedPriceOrderReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/FixedPriceOrderTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/FundingReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/LimitOrderReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/LimitOrderRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/LimitOrderTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/LiquidityRegenerationSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/LiquidityRegenerationScheduleStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarginCallEnterTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarginCallExitTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarginCallExtendTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketIfTouchedOrderReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketIfTouchedOrderRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketIfTouchedOrderTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketOrderDelayedTradeClose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketOrderMarginCloseout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketOrderMarginCloseoutReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketOrderPositionCloseout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketOrderReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketOrderRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketOrderTradeClose.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/MarketOrderTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/OpenTradeFinancing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/OrderCancelReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/OrderCancelRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/OrderCancelTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/OrderClientExtensionsModifyRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/OrderClientExtensionsModifyTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/OrderFillReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/OrderFillTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/PositionFinancing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/ReopenTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/RequestID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/ResetResettablePLTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/StopLossDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/StopLossOrderReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/StopLossOrderRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/StopLossOrderTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/StopOrderReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/StopOrderRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/StopOrderTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TakeProfitDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TakeProfitOrderReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TakeProfitOrderRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TakeProfitOrderTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TradeClientExtensionsModifyRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TradeClientExtensionsModifyTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TradeOpen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TradeReduce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TrailingStopLossDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TrailingStopLossOrderReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TrailingStopLossOrderRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TrailingStopLossOrderTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionGetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionHeartbeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionID.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionListRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionRangeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionRangeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionRejectReason.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionSinceRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionSinceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransactionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransferFundsRejectTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/transaction/TransferFundsTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/user/UserContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/user/UserGetExternalInfoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/user/UserGetInfoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/user/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/user/UserInfoExternal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oanda/v20/user/UserSpecifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/AktualisArakPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/GrafikonPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/HistorikusArakPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/IrPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/Letoltes2Page.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/LetoltesPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/ModositPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/NyitottPoziciokPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/Olvas2Page.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/OlvasPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/ParhuzamosPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/PozicioNyitasPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/PozicioZarasPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/SzamlaInfoPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/TorolPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pages/WelcomePage.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,56 +385,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.JavaEloadasBeadando.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.FX_Forint [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.FX_Forint [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaEloadasBeadando [-Dcheckstyle.skip=true...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaEloadasBeadando [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaEloadasBeadando [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaEloadasBeadando [dependency:tree].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaEloadasBeadando [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaEloadasBeadando [jaxws:wsimport].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaEloadasBeadando [validate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.javaeloadasbeadando [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.javaeloadasbeadando [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ferko/Documents/java_gyak_beadando&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.certificates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.JavaEloadasBeadando.executor": "Run",
+    "Maven.FX_Forint [clean].executor": "Run",
+    "Maven.FX_Forint [install].executor": "Run",
+    "Maven.JavaEloadasBeadando [-Dcheckstyle.skip=true...].executor": "Run",
+    "Maven.JavaEloadasBeadando [clean].executor": "Run",
+    "Maven.JavaEloadasBeadando [compile].executor": "Run",
+    "Maven.JavaEloadasBeadando [dependency:tree].executor": "Run",
+    "Maven.JavaEloadasBeadando [install].executor": "Run",
+    "Maven.JavaEloadasBeadando [jaxws:wsimport].executor": "Run",
+    "Maven.JavaEloadasBeadando [validate].executor": "Run",
+    "Maven.javaeloadasbeadando [clean].executor": "Run",
+    "Maven.javaeloadasbeadando [compile].executor": "Run",
+    "Maven.javaeloadasbeadando [install].executor": "Run",
+    "Maven.javaeloadasbeadando [package].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/javafx-sdk-23.0.1/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "http.certificates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ferko\Documents\javaeloadas" />
+      <recent name="C:\Users\Ferko\Documents\javaeloadas\src\main" />
       <recent name="C:\Users\Ferko\Documents\javaeloadas\src\main\java" />
       <recent name="C:\Nerik\JavaEF\src\main\java\com\example\javaeloadasbeadando\lotto_query" />
       <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java\com\example\javaeloadasbeadando\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ferko\Documents\javaeloadas\adatok" />
+      <recent name="C:\Users\Ferko\Documents\javaeloadas" />
       <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java" />
       <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java\com\example\javaeloadasbeadando" />
       <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\resources\pages" />
-      <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\java\com\example\javaeloadasbeadando\pages" />
-      <recent name="C:\Users\Ferko\Documents\JavaEloadasBeadando\src\main\resources\com\example\javaeloadasbeadando" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.javaeloadasbeadando" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.javaeloadasbeadando" />
       <recent name="com.example.javaeloadasbeadando.util" />
       <recent name="com.example.javaeloadasbeadando.pages" />
     </key>
@@ -191,7 +500,12 @@
       <workItem from="1732886980710" duration="1333000" />
       <workItem from="1732894295580" duration="2140000" />
       <workItem from="1732918564650" duration="1871000" />
-      <workItem from="1732951435232" duration="6763000" />
+      <workItem from="1732951435232" duration="7371000" />
+      <workItem from="1732989704881" duration="1181000" />
+      <workItem from="1733056568589" duration="170000" />
+      <workItem from="1733060074952" duration="3699000" />
+      <workItem from="1733064934116" duration="1838000" />
+      <workItem from="1733066798305" duration="1500000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, frontend megvan, meg a skeleton">
       <option name="closed" value="true" />
@@ -233,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732830843669</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Kisebb javítások, dokumentáció">
+      <option name="closed" value="true" />
+      <created>1732983638313</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732983638313</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.javaeloadasbeadando.controllers.TorolController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <!-- Cím középen felül -->
+    <VBox alignment="CENTER" spacing="20.0" AnchorPane.topAnchor="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <Label text="Rekord törlése" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+    </VBox>
+
+    <!-- Rekord kiválasztása -->
+    <VBox alignment="CENTER" spacing="10.0" AnchorPane.topAnchor="100.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <Label text="Válassz egy rekordot (ID):" style="-fx-font-size: 16px;"/>
+        <ComboBox fx:id="recordComboBox" style="-fx-font-size: 14px;" />
+    </VBox>
+
+    <!-- Gombok -->
+    <HBox spacing="20" alignment="CENTER" AnchorPane.topAnchor="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <Button text="Törlés" onAction="#handleDelete" style="-fx-font-size: 14px;"/>
+        <Button text="Mégse" onAction="#handleCancel" style="-fx-font-size: 14px;"/>
+    </HBox>
+
+    <!-- LogBox -->
+    <VBox alignment="CENTER" spacing="10.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+        <Label text="Log:" style="-fx-font-size: 16px;"/>
+        <TextArea fx:id="logBox" prefHeight="150.0" wrapText="true" editable="false" style="-fx-font-size: 14px;"/>
+    </VBox>
+</AnchorPane>
